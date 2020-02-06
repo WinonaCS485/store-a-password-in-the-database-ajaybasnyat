@@ -16,7 +16,7 @@ hashString = str(hashed_password)
 # Connect to the database
 connection = pymysql.connect(host='mrbartucz.com',
                              user='fx9785rk',
-                             password='',
+                             password='ajay',
                              db='fx9785rk_Password',
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
